@@ -17,7 +17,7 @@ document.querySelector(".parrafo");
 parrafo.className = "nuevo-parrafo";
 
 let parrafo_nuevo = document.createElement("p");
-parrafo_nuevo.innerText = "este parrafo tiene un emoji 😍";
+parrafo_nuevo.innerText = "este parrafo tiene un emoji 🦄🦄";
 document.body.appendChild(parrafo_nuevo);
 console.log(parrafo_nuevo);
 

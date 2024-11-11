@@ -13,13 +13,11 @@ console.log(resultado % 3 ==0 ? "👍" : "👎");
 let cadena = "hola, " + "mundo!";
 console.log(cadena);
 
-
 function suma(a, b) {
 return a + b;
 }
 let resultad = suma(5, 3);
 console.log(resultad); // 8
-
 
 let resta = function (a, b) {
 return a - b;
