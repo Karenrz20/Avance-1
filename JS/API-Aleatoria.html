@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <a href="index.html"> Ir a 🏡 </a>
+    <a href="/Portafolio/Encabezados.html/index.html"> Ir a 🏡 </a>
     <p>
         <a href="">➡️Ir a ....</a>
     </p>
@@ -13,24 +13,28 @@
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.fuchsia.min.css"
     >
+
     <title>Random User API</title>
 </head>
 <body>
     <main class="container">
-        <h1>Usuario Aleatorio</h1>
-        <article>
-            <dl>
-                <dt>Nombre</dt>
-                <dd id="user-name"></dd>
-                <dt>Empleo</dt>
-                <dd id="user-job"></dd>
-                <dt>Imagen</dt>
-                <dd>
-                    <img id="user-image" src="" alt="Imagen del Usuario">
-                </dd>
-            </dl>
-        </article>
+        <h1>Usuarios Generados</h1>
+        <button id="generate-user">Generar Usuario</button>
+        <button id="clear-table">Limpiar Tabla</button>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Empleo</th>
+                    <th>Imagen</th>
+                </tr>
+            </thead>
+            <tbody id="user-table">
+              
+            </tbody>
+        </table>
     </main>
-    <script src="API-Aleatoria.js"></script>
+    <script src="/Portafolio/Encabezados.html/JS/API-Aleatoria.js"></script>
 </body>
 </html>
